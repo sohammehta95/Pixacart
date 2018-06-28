@@ -26,7 +26,7 @@ const upload = multer({ storage: storage, fileFilter: imageFilter});
 cloudinary.config({ 
   cloud_name: 'pixacloud', 
   api_key: 195448226986684, 
-  api_secret: 'eQYTao6GG1Hr5hnnDyuVKZ-s1Z8'
+  api_secret: process.env.IMAGESECRET
 });
 
 // ============= ROUTES ==============

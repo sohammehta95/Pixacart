@@ -19,7 +19,7 @@ const indexRoute      = require("./routes/index"),
       passwordRoute   = require("./routes/password");
 
 // connect to the DB
-let url = "mongodb://soham:soham1@ds115396.mlab.com:15396/pixadb" ||process.env.DATABASEURL || "mongodb://localhost/pixadb"; // fallback in case global var not working
+let url = process.env.DATABASEURL || "mongodb://localhost/pixadb"; // fallback in case global var not working
 mongoose.connect(url, {useMongoClient: true});
 
 app.set("view engine", "ejs");
@@ -32,7 +32,7 @@ app.locals.moment = moment; // create local variable available for the applicati
 
 //passport configuration
 app.use(session({
-  secret: "Bhakti is awesome" ||process.env.SESSIONSECRET,
+  secret: process.env.SESSIONSECRET,
   resave: false,
   saveUninitialized: false
 }));
