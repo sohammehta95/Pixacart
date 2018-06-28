@@ -1,14 +1,16 @@
 # Pixacart
 An online marketplace for people to buy and sell their phone-clicked photos
 
-Technologies and Tools: 
+Technologies and Tools:   
 NodeJS, MondoDB , Express, Passport (Authentication), Mongoose, Express-Session, Connect-Flash (Flash Msgs), Heroku (Deployment), CloudFlare (Routing + SSL), Google Cloud API, Cloudinary (Media on Cloud), mLab (Mondo on Cloud), Nodemailer (Email Verification)
 
 ## Live Demo
 
+Link: https://www.pixacart.com
+
 ![Pixacart](/imgs/main.png)
 
-Link: https://www.pixacart.com
+
 
 ## Features
 
