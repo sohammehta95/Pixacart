@@ -5,7 +5,7 @@ Technologies and Tools:
 NodeJS, MondoDB , Express, Passport (Authentication), Mongoose, Express-Session, Connect-Flash (Flash Msgs), Heroku (Deployment), CloudFlare (Routing + SSL), Google Cloud API, Cloudinary (Media on Cloud), mLab (Mondo on Cloud), Nodemailer (Email Verification)
 
 ## Live Demo
-
+ Link : http://pixacart.herokuapp.com             
 ![Pixacart](/imgs/main.png)
 
 
