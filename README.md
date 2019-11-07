@@ -6,8 +6,6 @@ NodeJS, MondoDB , Express, Passport (Authentication), Mongoose, Express-Session,
 
 ## Live Demo
 
-Link: https://www.pixacart.com
-
 ![Pixacart](/imgs/main.png)
 
 
